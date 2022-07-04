@@ -59,6 +59,24 @@
 ![image](https://user-images.githubusercontent.com/43883264/177119104-18ebf870-f858-441a-8f73-235a978c4063.png)
 
 ## Cloud Storage
+- How to create a cloud storage bucket
+![image](https://user-images.githubusercontent.com/43883264/177132691-54f08f76-0925-44aa-abbc-124081cf1629.png)
+- You can then choose the desired storage class for your bucket
+![image](https://user-images.githubusercontent.com/43883264/177133125-cd8dda2d-d9a0-4246-ab5a-a3096b9eeae0.png)
+**STORAGE CLASSES*
+
+- You then can choose how to control access over the objects stored in the bucket
+![image](https://user-images.githubusercontent.com/43883264/177133330-a3fc3912-ee28-42c0-b1ab-ea5abc6f0467.png)
+-> Fine grained means - you can actually create ACLs to allow access to users who only created their own objects. Uniform is self expl
+- You can then choose how you want to encrypt your objects
+![image](https://user-images.githubusercontent.com/43883264/177133569-e2ea2d54-98a7-4ef5-a5d6-29014123262d.png)
+
+- Now let's see once a bucket is created how we can edit the permissions on the bucket
+![image](https://user-images.githubusercontent.com/43883264/177133862-80452380-0ce9-48bc-847d-ba18eb79c5db.png)
+![image](https://user-images.githubusercontent.com/43883264/177133903-bd206428-db63-457f-84fa-1cdc5d8e087d.png)
+![image](https://user-images.githubusercontent.com/43883264/177133994-b94c78e3-5f4d-493b-a577-b8a2427a3c45.png)
+- The last two steps allow for public access to viewing the bucket contents
+
 
 
 
