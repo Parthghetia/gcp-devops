@@ -63,9 +63,15 @@
 ![image](https://user-images.githubusercontent.com/43883264/177132691-54f08f76-0925-44aa-abbc-124081cf1629.png)
 - You can then choose the desired storage class for your bucket
 ![image](https://user-images.githubusercontent.com/43883264/177133125-cd8dda2d-d9a0-4246-ab5a-a3096b9eeae0.png)
-**STORAGE CLASSES*
+#### STORAGE CLASSES
+![image](https://user-images.githubusercontent.com/43883264/177904801-9a69fd60-df2f-499b-b572-e3fa00e26462.png)
 
-- You then can choose how to control access over the objects stored in the bucket
+1. Standard Storage - is best for data that is frequently accessed ("hot" data) and/or stored for only brief periods of time
+2. Nearline Storage -  is a low-cost, highly durable storage service for storing infrequently accessed data. Nearline storage is a better choice than Standard storage in scenarios where slightly lower availability, a 30-day minimum storage duration
+- You then can choose how to control access over the objects stored in the bucket and costs for data access are acceptable trade-offs for lowered at-rest storage costs
+3. Coldline Storage -  Coldline storage is a better choice than Standard storage or Nearline storage in scenarios where slightly lower availability, a 90-day minimum storage duration, and higher costs for data access are acceptable trade-offs for lowered at-rest storage costs.
+4. Archive Storage -  is the lowest-cost, highly durable storage service for data archiving, online backup, and disaster recovery
+ 
 ![image](https://user-images.githubusercontent.com/43883264/177133330-a3fc3912-ee28-42c0-b1ab-ea5abc6f0467.png)
 -> Fine grained means - you can actually create ACLs to allow access to users who only created their own objects. Uniform is self expl
 - You can then choose how you want to encrypt your objects
