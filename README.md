@@ -1,4 +1,4 @@
-# Notes
+# GCP Intro
 ## Introduction to Compute Engine
 ![image](https://user-images.githubusercontent.com/43883264/177053904-d234b12b-c489-421e-b047-9550fa57f537.png)
 
@@ -114,3 +114,79 @@ Success!
 
 ## Big Data and Messaging
 ### Big Query
+- Servelesss, highly scalable and cost-effective big data warehouse designed for business agility
+- In the Console, go to Big Data then head on Big Query
+![image](https://user-images.githubusercontent.com/43883264/178120169-b78de822-5fb2-4015-b93c-893d4ebdd74a.png)
+
+- This console is used to basically query big data-sets. In this example, we are going to query a public data sets to query a Public DataSet that stores names in the US.
+- This the query used in the Demo
+```sql
+SELECT
+  name, gender,
+  SUM(number) AS total
+FROM
+  `bigquery-public-data.usa_names.usa_1910_2013`
+GROUP BY
+  name, gender
+ORDER BY
+  total DESC
+LIMIT
+  10
+```
+![image](https://user-images.githubusercontent.com/43883264/178120211-10b0e019-01bb-4c12-b23e-b41a57c6f8b2.png)
+
+## Google Dataflow
+- Is a fully managed service for executing Apache Beam Pipelines within the Google Cloud Platform
+- What is Apache Beam? This is an open source, unified model and set of language-specific SDKs for defining and executing data processing workflows, and also data ingestion
+![image](https://user-images.githubusercontent.com/43883264/178120399-a0eda439-cce7-4c3c-b15b-61c3a498a6ec.png)
+- Here is an example data pipeline
+![image](https://user-images.githubusercontent.com/43883264/178120425-61f0fb7f-db9f-462d-a38b-f4b9747e8fb1.png)
+- And an how data flow looks like
+
+## Google Cloud Pub/Sub
+- This is a fully managed real-time messaging service that allows you to send and receive messages between independent applications
+![image](https://user-images.githubusercontent.com/43883264/178120556-f0dcc3b9-b20d-48ce-b718-88d5408bd2c6.png)
+
+- You have 3 components to a cloud pub/sub
+- More about pub/sub https://cloud.google.com/pubsub/docs/overview
+1. Topic 
+2. Subscription
+3. The message itself
+
+- Pub/sub integrates with Google DataFlow and BigQuery to create a streaming pipeline. 
+
+Pub/Sub Creating a topic
+![image](https://user-images.githubusercontent.com/43883264/178120668-54d8b4dd-bd29-4f5b-84f4-62580cbb5791.png)
+- Once a topic is created we can create a subscription as below
+![image](https://user-images.githubusercontent.com/43883264/178120716-2f9ad627-3bcc-4386-8ab0-49f028b16fce.png)
+![image](https://user-images.githubusercontent.com/43883264/178120757-e2c4b36b-7fa3-4283-8e81-dbf70b5f873e.png)
+![image](https://user-images.githubusercontent.com/43883264/178120767-1fbd38ab-94f3-48f9-b12e-bcb30909fc18.png)
+
+- Once a topic and sub is created, let's try publishing a message 
+- Go to your topic and hit publish message...
+![image](https://user-images.githubusercontent.com/43883264/178120787-a98026b3-42ec-4c77-beb5-ce7ab4748f34.png)
+
+- Once the message is published we are going to pull the message as a subscriber
+- You just go to the subscription page and hit pull and you'll see your message
+![image](https://user-images.githubusercontent.com/43883264/178120851-8bba4d76-a0c6-4918-997d-78d8ecac7cf8.png)
+
+## Google Cloud Security
+- G Cloud provideds Data Storage Security by providing encryption for data at rest and data in transit as well
+
+## GCP Monitoring
+- Cloud Monitoring Handles this
+![image](https://user-images.githubusercontent.com/43883264/178121099-2668be0c-e102-40ec-8e19-85fcfa7e1df4.png)
+- You can also monitor AWS resources.
+- Let's check it out 
+![image](https://user-images.githubusercontent.com/43883264/178121124-e8702ddd-cea6-4f99-a097-6d572e145020.png)
+- How to set up an uptime check
+
+![image](https://user-images.githubusercontent.com/43883264/178121149-31b69da0-ed63-490e-99ce-ff8628407aa1.png)
+
+## Machine Learning and AI on GCP
+- What is machine learning -> Basically a system that tries to learn patterns and behaviours from daily usage
+- What is AI? This is where we use the data learnt earlier to try and predict patterns and workflows
+
+Google Cloud has an open source tool known for this called TensorFlow
+- Here is a look at Machine Learning an AI pipeline with GCP
+![image](https://user-images.githubusercontent.com/43883264/178121256-d0ed0f3c-8f89-44f8-a236-f75bb3e10848.png)
