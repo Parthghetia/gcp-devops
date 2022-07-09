@@ -83,6 +83,34 @@
 ![image](https://user-images.githubusercontent.com/43883264/177133994-b94c78e3-5f4d-493b-a577-b8a2427a3c45.png)
 - The last two steps allow for public access to viewing the bucket contents
 
+## Database Service in GCP
+- We have two types of DBs
+1. Relational - structured data
+2. Non-Relational - non-structured data - uses a storage model that is specific to the data being stored
+
+### What GCP offers
+#### Relational DBs
+1. Cloud SQL - SQL database for mysql,sql and postgres engines
+2. Cloud Spanner - globally distributed DB service with unlimited scaling
+![image](https://user-images.githubusercontent.com/43883264/178050332-18bc86ad-42af-461c-9782-204583cea51b.png)
 
 
+#### Non Relational DBs
+1. Big Table - for large analytical and operational workloads
+2. Firestore - fully managed document DB for developing application
+3. Memory Store - highly available in memory service for redic and memcache
+![image](https://user-images.githubusercontent.com/43883264/178050382-d0746efd-6204-4a5c-a962-7d9863497cd6.png)
 
+### Databases - Hands On
+![image](https://user-images.githubusercontent.com/43883264/178050870-e57d2a34-ca94-479b-b202-416ee4dc7d58.png)
+![image](https://user-images.githubusercontent.com/43883264/178050897-590f18c5-63ee-4451-9adc-fb7992a974ca.png)
+![image](https://user-images.githubusercontent.com/43883264/178051091-119899fd-6f0d-4239-9b2a-ba9b48656549.png)
+![image](https://user-images.githubusercontent.com/43883264/178051236-75833906-e575-483e-94d3-614c78ca8c0f.png)
+![image](https://user-images.githubusercontent.com/43883264/178051291-463bb44e-ec50-4ba5-a5df-76aebf50eb9e.png)
+![image](https://user-images.githubusercontent.com/43883264/178051657-a9a9149c-50cd-423c-8614-11d66935b8d6.png)
+![image](https://user-images.githubusercontent.com/43883264/178051787-11cbfe28-cd99-4083-ab73-b05b2425eacd.png)
+Success!
+![image](https://user-images.githubusercontent.com/43883264/178051897-b3ef9585-7c92-4d4d-b191-a2fc19ae9efc.png)
+
+## Big Data and Messaging
+### Big Query
