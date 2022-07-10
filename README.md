@@ -190,3 +190,72 @@ Pub/Sub Creating a topic
 Google Cloud has an open source tool known for this called TensorFlow
 - Here is a look at Machine Learning an AI pipeline with GCP
 ![image](https://user-images.githubusercontent.com/43883264/178121256-d0ed0f3c-8f89-44f8-a236-f75bb3e10848.png)
+
+
+## Cost Control on GCP
+### Billing Resource Org Basics
+- Let's once again take a look at the GCP Hierarchy
+
+![image](https://user-images.githubusercontent.com/43883264/178121478-b531870a-7046-4679-8fc9-c92451bb8cb3.png)
+- Why does this matter from a billing account perspective
+![image](https://user-images.githubusercontent.com/43883264/178121592-3d01f2ff-c6db-41fd-926f-a33f5ef99235.png)
+- Sample Billing Account for an org
+![image](https://user-images.githubusercontent.com/43883264/178121611-3d455351-e141-409f-abdf-d96f6882e40c.png)
+NOTE: You cannot associate multiple billing accounts to one project
+
+### Controlling Billing Access with IAM Roles
+![image](https://user-images.githubusercontent.com/43883264/178122298-ed3d6b75-323e-4a7c-a15f-cfc91d240982.png)
+ 
+ ### IAM Access Scopes
+ ![image](https://user-images.githubusercontent.com/43883264/178122510-b0365811-ddf2-4ddf-874d-5884c426a5b0.png)
+ 
+## Hands On Billing Accounts and IAM
+- Here is a user in a GCP Org that shows him as a billing account admin
+![image](https://user-images.githubusercontent.com/43883264/178161248-d4edcf2a-d733-450d-8d62-17bcabf62f86.png)
+- We then go to the account management page in the bottom
+![image](https://user-images.githubusercontent.com/43883264/178161284-f9f93f40-3187-44b1-90a0-61f3328424e4.png)
+- Here on the right you can see the membership in this billing account
+![image](https://user-images.githubusercontent.com/43883264/178161327-e3a19677-4695-45b3-bef2-23b15ed697cd.png)
+
+- Now let's go ahead and add a new user to our organization. We are going to assign some IAM permissions to this user as Billing User in this organization. Let's see how to do that:
+![image](https://user-images.githubusercontent.com/43883264/178161402-5f7efb1a-2236-4493-86f8-48c922cd306a.png)
+
+- If we now go back to the billing account management page, you'll now see the new user in there
+![image](https://user-images.githubusercontent.com/43883264/178161413-4ef5487d-e951-4b31-8efd-c98abe5ed969.png)
+- Something new we are going to try here is. Let's try and assign our new user to be a Billing Account Admin but from them Billing Account Management page and not IAM
+- What happens here is. This user Bob, will be a Billing Account User throughout the organization but he will be let's say a Billing Account Administrator in this Billing Account only
+![image](https://user-images.githubusercontent.com/43883264/178161516-1d26a124-5bf9-4046-9f2b-85485d64e18c.png)
+
+## Billing Reports
+- This report what are we actually spending
+![image](https://user-images.githubusercontent.com/43883264/178162041-6bf02073-094d-48e7-9368-499b0dbe1d5f.png)
+- You can use legit filters to actually determine what is the cost of the usage and what actually caused a spike let's say at the end of the month and drill deeper
+
+## Exporting Billing Data to Big Query
+- Why Big Query
+![image](https://user-images.githubusercontent.com/43883264/178162379-2f70d5c8-e104-459c-8203-d645f3aa328b.png)
+- How to export Billing Data in BigQuery
+![image](https://user-images.githubusercontent.com/43883264/178162409-64c70453-b535-4736-a26d-ef1f5e5059f5.png)
+
+### Hands On - How to Export Data to Big Query
+![image](https://user-images.githubusercontent.com/43883264/178162430-aabc731f-df82-42fc-9bce-1e26f990940c.png)
+- The above console is where you would actually export Big Query data to but before that we gotta create a Dataset. So let's see how to do that:
+
+- In Big Query, select your project in the Big Query Menu and then click create Dataset as below:
+![image](https://user-images.githubusercontent.com/43883264/178162485-f42736ea-32ad-4ea3-8923-29422fa93d59.png)
+![image](https://user-images.githubusercontent.com/43883264/178162494-e3de5676-076e-496b-b825-2f8469a7f230.png)
+
+- We will then go back to the billing dashboard as below and that's it!
+![image](https://user-images.githubusercontent.com/43883264/178162554-af5ebc33-af86-45a3-b051-346a36d86716.png)
+NOTE: Only newer data will be sent to Big Query but older data will not be sent
+- Here is some sample billing data that was sent to Big Query
+![image](https://user-images.githubusercontent.com/43883264/178162598-5f0453e7-e096-4809-86ac-f758da1977e3.png)
+
+## Billing Alerts with Budgets
+- How Budgets and alerts work:
+ ![image](https://user-images.githubusercontent.com/43883264/178163818-57af0c7e-1219-43a0-8e2b-b136ecd63e70.png)
+
+## Hands On - Setting up Budgets and Alerts
+![image](https://user-images.githubusercontent.com/43883264/178163921-42109657-d4f7-4a1e-a8b7-9537121ba9e2.png)
+![image](https://user-images.githubusercontent.com/43883264/178163928-4f84e047-16e0-4f44-bce2-64e173b0e9d3.png)
+![image](https://user-images.githubusercontent.com/43883264/178163960-a3c385c3-3673-4607-8d6b-ca0e29a2b196.png)
