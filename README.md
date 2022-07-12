@@ -1,4 +1,7 @@
 # GCP Intro
+## CloudLauncher
+- Marketplace for GCP
+
 ## Introduction to Compute Engine
 ![image](https://user-images.githubusercontent.com/43883264/177053904-d234b12b-c489-421e-b047-9550fa57f537.png)
 
@@ -36,7 +39,7 @@
 ## What's different on Google Cloud
 ![image](https://user-images.githubusercontent.com/43883264/177057201-d76c6cc9-8655-49cd-bebc-eba37eebd8d4.png)
 
-## Google Cloud APIs
+## Google Cloud APIs and Services
 - These are the already enabled APIs and Services
 ![image](https://user-images.githubusercontent.com/43883264/177057339-e0b62c1a-b0e2-40c5-8313-b02559c0f094.png)
 - Let's head over to the library and see what we have there:
