@@ -259,3 +259,30 @@ NOTE: Only newer data will be sent to Big Query but older data will not be sent
 ![image](https://user-images.githubusercontent.com/43883264/178163921-42109657-d4f7-4a1e-a8b7-9537121ba9e2.png)
 ![image](https://user-images.githubusercontent.com/43883264/178163928-4f84e047-16e0-4f44-bce2-64e173b0e9d3.png)
 ![image](https://user-images.githubusercontent.com/43883264/178163960-a3c385c3-3673-4607-8d6b-ca0e29a2b196.png)
+
+## Cost Reduction Tools - GCP
+![image](https://user-images.githubusercontent.com/43883264/178390066-26b2fbdb-86f6-405f-9339-4a57d4bb10ec.png)
+
+#### RightSizing VMs
+![image](https://user-images.githubusercontent.com/43883264/178390390-c1037368-a816-4ad9-a4cd-309160ef1293.png)
+
+#### Sustained Use Discounts
+![image](https://user-images.githubusercontent.com/43883264/178390552-beff2ad9-d285-466c-87c8-557bc37d790c.png)
+![image](https://user-images.githubusercontent.com/43883264/178390677-7bfbe2d7-07e5-4c9e-b4f7-19d833de93d2.png)
+For more info:
+https://cloud.google.com/compute/docs/sustained-use-discounts
+#### Committed Use Discounts
+![image](https://user-images.githubusercontent.com/43883264/178390879-a826d248-f9ac-4211-bb58-aa249ddc6b87.png)
+
+#### Preemptible VMs
+![image](https://user-images.githubusercontent.com/43883264/178391018-cf08ff0d-ce19-42f8-8dc6-cb776e41fa72.png)
+
+#### Cloud Storage Classes
+![image](https://user-images.githubusercontent.com/43883264/178391203-cd8df793-a9ef-4ec7-a735-7f404a027e94.png)
+
+#### Cloud Storage Lifecycle Policies
+![image](https://user-images.githubusercontent.com/43883264/178391389-32b78ea6-2f3b-4aa6-bd4d-8b71addb79be.png)
+
+#### Free Tier Resources
+![image](https://user-images.githubusercontent.com/43883264/178391539-f366b3ea-6545-4384-9791-2a3c8fd79e26.png)
+
