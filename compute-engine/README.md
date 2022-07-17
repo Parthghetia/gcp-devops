@@ -27,5 +27,24 @@
 - An instance template is a resource that you can use to create virtual machine (VM) instances and managed instance groups (MIGs)
 - Instance templates are designed to create instances with identical configurations. So you cannot update an existing instance template or change an instance template after you create it.
 
-## Creating a disk
-image.png
+- Here are some of the other services that are provided by Compute Engine:
+![image](https://user-images.githubusercontent.com/43883264/179422516-52f517b1-4e9b-4dd3-9ac7-cc92c5030066.png)
+
+## Google Cloud TPUs (Tensor Processing Unit)
+![image](https://user-images.githubusercontent.com/43883264/179422537-2fc564d6-2363-4c31-aac8-0750127155e3.png)
+
+## Health Checks
+![image](https://user-images.githubusercontent.com/43883264/179422586-cb7b74c8-f8f5-47a2-9acb-fae0e81bda63.png)
+
+## Zones
+![image](https://user-images.githubusercontent.com/43883264/179422597-0e67420d-a5c5-4957-9ec2-d35da13d859d.png)
+
+## Operations
+- Shows all that you do in Compute Engine
+
+![image](https://user-images.githubusercontent.com/43883264/179422616-414901fc-d512-44d7-a266-e58836d86b0a.png)
+
+## Compute Engine Settings
+![image](https://user-images.githubusercontent.com/43883264/179422641-599fdf41-7cd2-46b6-88ec-47d9393dc25e.png)
+
+-> All networking settings will be found in VPC
