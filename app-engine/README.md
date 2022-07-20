@@ -14,3 +14,16 @@
 - You can setup custom domains and SSL Certs in the settings section and also be able to setup Mail Servers to send emails through your app
 
 ## Hands On -> App Engine
+- Deploying an App Engine Application
+- We will enable the following APIs:
+1. Cloud Datastore API
+
+![image](https://user-images.githubusercontent.com/43883264/179876712-81d25bce-ae25-4871-8699-26c088aba612.png)
+
+2. Cloud Build API
+
+![image](https://user-images.githubusercontent.com/43883264/179876812-e61b0fa5-aee6-4c3b-9012-b3eb0bc3f4aa.png)
+
+- We are then going to create a bucket (The why will come later)
+
+
