@@ -48,3 +48,8 @@
 ![image](https://user-images.githubusercontent.com/43883264/179422641-599fdf41-7cd2-46b6-88ec-47d9393dc25e.png)
 
 -> All networking settings will be found in VPC
+
+
+## Hands On - Setting up a web server on Compute Engine using Windows Server
+![image](https://user-images.githubusercontent.com/43883264/180065112-7bdee57c-a690-40ba-a2aa-b8ac0750159e.png)
+![image](https://user-images.githubusercontent.com/43883264/180065165-22b59e8f-2c1a-441c-9ac5-718bf74827ab.png)
