@@ -102,6 +102,8 @@
 1. Big Table - for large analytical and operational workloads
 2. Firestore - fully managed document DB for developing application
 3. Memory Store - highly available in memory service for redic and memcache
+4. Cloud Datastore - highly scalable NoSQL database for your web and mobile applications.
+
 ![image](https://user-images.githubusercontent.com/43883264/178050382-d0746efd-6204-4a5c-a962-7d9863497cd6.png)
 
 ### Databases - Hands On
