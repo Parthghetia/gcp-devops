@@ -1,7 +1,7 @@
 # Google Cloud Identity Fundamentals
 - Cloud identity helps add another hierarchy to the Google Cloud Organization, this is called Folders
 
-![image](https://user-images.githubusercontent.com/43883264/179438253-74bbae3f-e9f3-48ac-8e43-51e264234041.png)
+![image](https://user-images.githubusercontent.com/43883264/180619102-aaf7f5cd-ded2-447d-b63f-50e79df0ef76.png)
 
 - Now let's check it out in the console:
 
