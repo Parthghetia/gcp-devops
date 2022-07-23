@@ -105,5 +105,11 @@ https://cloud.google.com/bigtable/docs/create-instance-write-data-hbase-shell
 ![image](https://user-images.githubusercontent.com/43883264/180624807-3776eaea-a317-4419-b60f-09c081c790fd.png)
 
 ### Cloud MemoryStore - Hands On
+
 ![image](https://user-images.githubusercontent.com/43883264/180624819-bdf269c8-ebe4-4ba9-8473-1091a702c10e.png)
+
 ![image](https://user-images.githubusercontent.com/43883264/180624837-dab61ba4-e82d-4698-b777-7bed92bcce8c.png)
+
+- Here's how to create one instance (Note how you cannot change the tier once the instance is created
+
+![image](https://user-images.githubusercontent.com/43883264/180624899-2dced5a9-ef29-4fb3-8e10-c26ded65cc8b.png)
