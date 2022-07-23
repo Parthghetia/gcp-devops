@@ -37,7 +37,10 @@ Cloud IAM Fundamentals
 ![image](https://user-images.githubusercontent.com/43883264/180617700-a79e3dfe-6228-4da5-9696-836600a59209.png)
 ![image](https://user-images.githubusercontent.com/43883264/180617732-38e66bd2-bd2a-4d2b-b91a-21e39d3bbc26.png)
 - How to create a key ring/key
-![image](https://user-images.githubusercontent.com/43883264/180617834-c38e03b3-c66d-4569-93f7-8355c579139e.png
+
+
+![image](https://user-images.githubusercontent.com/43883264/180617834-c38e03b3-c66d-4569-93f7-8355c579139e.png)
+
 ![image](https://user-images.githubusercontent.com/43883264/180617665-2ae8026e-4856-4c17-a33f-5f2c5fdf1f44.png)
 - You could then assign permissions based on what you wish once the keys are created as below
 ![image](https://user-images.githubusercontent.com/43883264/180617880-d972145e-e4a1-464f-9cdf-3103b636214f.png)
