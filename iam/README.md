@@ -1,17 +1,23 @@
 # Google Cloud Identity Fundamentals
 - Cloud identity helps add another hierarchy to the Google Cloud Organization, this is called Folders
+
 ![image](https://user-images.githubusercontent.com/43883264/179438253-74bbae3f-e9f3-48ac-8e43-51e264234041.png)
+
 - Now let's check it out in the console:
 
 ![image](https://user-images.githubusercontent.com/43883264/179438387-b19523a4-be52-48cf-ace8-1a44fcc37703.png)
+
 ![image](https://user-images.githubusercontent.com/43883264/179438431-50c7f379-5a37-46cd-b741-0faf088a9ba6.png)
 
 - Remember that policy inheritance flows down the hierarchy and that any Roles and policies appied let's say at the Org level would trickle down the structure
 
 # IAM
 Cloud IAM Fundamentals
+
 ![image](https://user-images.githubusercontent.com/43883264/180617268-38e686db-473d-4c8b-845f-87390873c9d6.png)
+
 ![image](https://user-images.githubusercontent.com/43883264/180617304-0922c1f3-031f-44b6-bfa4-7cc092c1e25b.png)
+
 - Up top is a screenshot of the options and selections you would get in IAM in GCP
 
 ![image](https://user-images.githubusercontent.com/43883264/180617555-f1168728-5697-4496-9771-cfc02edaac2d.png)
