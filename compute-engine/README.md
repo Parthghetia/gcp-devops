@@ -28,6 +28,7 @@
 - Instance templates are designed to create instances with identical configurations. So you cannot update an existing instance template or change an instance template after you create it.
 
 - Here are some of the other services that are provided by Compute Engine:
+
 ![image](https://user-images.githubusercontent.com/43883264/179422516-52f517b1-4e9b-4dd3-9ac7-cc92c5030066.png)
 
 ## Google Cloud TPUs (Tensor Processing Unit)
