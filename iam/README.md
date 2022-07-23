@@ -48,7 +48,7 @@ Cloud IAM Fundamentals
 ### Cloud IAP
 ![image](https://user-images.githubusercontent.com/43883264/180617905-19b8e441-34e7-4cd3-a92a-8dc724b5e189.png)
 
-![image](https://user-images.githubusercontent.com/43883264/180618226-a19fd825-e4ed-4460-8b2d-6b9a718964a2.png)
+![image](https://user-images.githubusercontent.com/43883264/180619241-7082ebf0-2bc6-4b53-88f1-508b834e2331.png)
 
 ![image](https://user-images.githubusercontent.com/43883264/180618342-ebf632c8-258c-4682-b26c-a43586127ec3.png)
  
