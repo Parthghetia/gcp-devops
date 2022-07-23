@@ -55,12 +55,3 @@ Cloud IAM Fundamentals
 - When an application or resource is protected by IAP, it can only be accessed through the proxy by principals, also known as users, who have the correct Identity and Access Management (IAM) role. When you grant a user access to an application or resource by IAP, they're subject to the fine-grained access controls implemented by the product in use without requiring a VPN. When a user tries to access an IAP-secured resource, IAP performs authentication and authorization checks.
 - More here: https://cloud.google.com/iap/docs/concepts-overview
 
-- As you can see IAP is enabled here:
-![image](https://user-images.githubusercontent.com/43883264/180618464-4ab4883c-01cf-494a-9f39-21d4d62861b4.png)
-- When you enable IAP it automatically creates an OUATH-2 ID and Secret. Which can be editted as below:
-![image](https://user-images.githubusercontent.com/43883264/180618528-06367730-6d67-4eb2-bf38-fd10d52afafc.png)
-![image](https://user-images.githubusercontent.com/43883264/180618539-5b2cb981-4033-4559-92e9-bde56d5d6f1e.png)
-
--> In the API and Services section under credentials you can now see the OAUTH settings
-![image](https://user-images.githubusercontent.com/43883264/180618584-c46d5ee1-3e1b-4fea-bce1-7e059cd912d6.png)
-and among other settings that we are not diving into here
