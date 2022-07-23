@@ -1,4 +1,4 @@
-## Managing Storage and Databases
+# Managing Storage and Databases
 ![image](https://user-images.githubusercontent.com/43883264/180623070-c016f183-15e5-4fca-96c4-4a8f9dde2c9c.png)
 
 - Here is a set of storage classes defined for a bunch of projects plus the storage configured for all these options
@@ -20,7 +20,7 @@
  Here's what Google has to offer in terms of DBs
  https://github.com/Parthghetia/gcp-devops/blob/main/README.md#database-service-in-gcp
  
- ## Cloud Datastore Fundamentals - Non-Relational Data
+ # Cloud Datastore Fundamentals - Non-Relational Data
  ![image](https://user-images.githubusercontent.com/43883264/180623552-8d24b562-421c-4548-9e57-fe3f7d314509.png)
 
 - Let's take a look at Cloud Datastore first hand:
@@ -47,7 +47,7 @@
 ![image](https://user-images.githubusercontent.com/43883264/180623787-054d2144-aed6-45d1-b808-78e6c8cca893.png)
 
 
-## Handling Relational Data via Cloud SQL
+# Handling Relational Data via Cloud SQL
 
 ![image](https://user-images.githubusercontent.com/43883264/180624187-e91c33b4-20e7-4113-bb70-dd217fdf3642.png)
 
@@ -72,7 +72,7 @@
 
 ![image](https://user-images.githubusercontent.com/43883264/180624330-3de2f195-730b-4e99-bb9f-bb5ee6f6da54.png)
 
-## NoSql Management with Cloud BigTable
+# NoSql Management with Cloud BigTable
 ![image](https://user-images.githubusercontent.com/43883264/180624404-b0a67889-0fc4-4063-a123-6ab1389d2613.png)
 
 ## Cloud BigTable Hands On
@@ -87,7 +87,23 @@ https://cloud.google.com/bigtable/docs/create-instance-write-data-hbase-shell
 ## Cloud Spanner
 ![image](https://user-images.githubusercontent.com/43883264/180624619-3d1a8d16-7d82-4aee-aa96-89653e1ea982.png)
 
-## Cloud Spanner - Hands On
+#### Cloud Spanner - Hands On
 ![image](https://user-images.githubusercontent.com/43883264/180624663-1c5bc787-47cb-4602-9ff1-f7d212f6563a.png)
 
 ![image](https://user-images.githubusercontent.com/43883264/180624668-c96c2fa0-04a4-4a29-9392-9eb862376a5a.png)
+- Let's create an instance
+
+![image](https://user-images.githubusercontent.com/43883264/180624759-46bff6b4-dc6c-4953-8996-2c7e89747f77.png)
+
+- This is how to drill down into the instance we have already set up
+
+![image](https://user-images.githubusercontent.com/43883264/180624774-f70c098d-82e6-4f6e-94a9-26defd8d0524.png)
+
+![image](https://user-images.githubusercontent.com/43883264/180624759-46bff6b4-dc6c-4953-8996-2c7e89747f77.png)
+
+# Cloud MemoryStore Fundamentals
+![image](https://user-images.githubusercontent.com/43883264/180624807-3776eaea-a317-4419-b60f-09c081c790fd.png)
+
+### Cloud MemoryStore - Hands On
+![image](https://user-images.githubusercontent.com/43883264/180624819-bdf269c8-ebe4-4ba9-8473-1091a702c10e.png)
+![image](https://user-images.githubusercontent.com/43883264/180624837-dab61ba4-e82d-4698-b777-7bed92bcce8c.png)
