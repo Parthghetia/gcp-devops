@@ -13,3 +13,6 @@
 
 ![image](https://user-images.githubusercontent.com/43883264/179424974-56263a64-fd6b-408b-888a-998afdb49ca4.png)
 
+- What are containers?
+Containers start life as an image
+ 
