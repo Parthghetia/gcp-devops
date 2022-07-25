@@ -134,3 +134,4 @@ ghetiapa@cloudshell:~/parth-docker-sample-app (pacific-primer-356202)$
 - You can now see your image on GCP and can deploy from there too to let's say GKE
 
 ![image](https://user-images.githubusercontent.com/43883264/180860467-2b97faed-31ee-4487-8ca3-8d9bc4b1e491.png)
+
