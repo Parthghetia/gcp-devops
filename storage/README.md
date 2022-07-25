@@ -105,7 +105,7 @@ Cloud Firestore is a NoSQL document database that lets you easily store, sync, a
 ![image](https://user-images.githubusercontent.com/43883264/180682419-72159a33-f6b9-420f-a2fd-ff892a4e7334.png)
 
 
-## Cloud BigTable Hands On
+# Cloud BigTable 
 ![image](https://user-images.githubusercontent.com/43883264/180624495-3f3e56e0-0843-436c-92e0-a31edb1c0dc2.png)
 
 ![image](https://user-images.githubusercontent.com/43883264/180624512-7bd650cc-68c8-4295-bc5f-ae0e1fcf67c8.png)
@@ -115,6 +115,9 @@ Cloud Firestore is a NoSQL document database that lets you easily store, sync, a
 https://cloud.google.com/bigtable/docs/create-instance-write-data-hbase-shell
 
 ## Connecting to Cloud BigTable with CBT - Hands On
+
+![image](https://user-images.githubusercontent.com/43883264/180682796-58b1f674-5d64-4fef-b637-01ebe9ed2386.png)
+![image](https://user-images.githubusercontent.com/43883264/180682814-b24aa514-c79a-4017-8b1d-dc3e8aa4d10c.png)
 
 ## Cloud Spanner
 ![image](https://user-images.githubusercontent.com/43883264/180624619-3d1a8d16-7d82-4aee-aa96-89653e1ea982.png)
