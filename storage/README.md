@@ -14,6 +14,26 @@
 
 ![image](https://user-images.githubusercontent.com/43883264/180623230-91ee7bee-2bff-46ce-9e0a-e3df7c0e56fa.png)
 
+## Cloud Storage Lifecycle Rules - Hands On
+- Here is what was required for the lab
+
+![image](https://user-images.githubusercontent.com/43883264/180680626-36285ef2-7671-4ce3-b50f-b23198fdce25.png)
+
+
+- Here is the guide for the lab
+
+![image](https://user-images.githubusercontent.com/43883264/180680576-60badd30-4a3e-4128-b849-ff1dd87c140e.png)
+
+- You can choose to do the following using a json file and the CLI too. Trust me less clicking for sure. Find details below:
+
+![image](https://user-images.githubusercontent.com/43883264/180681363-d128f02e-d99f-4ce3-8557-d9bbdb754ec6.png)
+
+- Json file attached to the folder below named: `delete-after-two-years.json`
+
+- Here is detailed description on putting objects on hold
+
+![image](https://user-images.githubusercontent.com/43883264/180681559-ca53adbf-6e56-4517-98f4-ae016a97432a.png)
+
  ### NO-SQL Databases vs SQL Databases - Relational vs Non-Relational Databases
  NoSQL (“non SQL” or “not only SQL”) databases were developed with a focus on scaling, fast queries, allowing for frequent application changes, and making programming simpler for developers. Relational databases accessed with SQL (Structured Query Language) were developed with a focus on reducing data duplication as storage was much more costly than developer time. SQL databases tend to have rigid, complex, tabular schemas and typically require expensive vertical scaling.
  
