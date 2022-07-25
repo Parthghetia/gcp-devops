@@ -43,5 +43,61 @@ Containers start life as an image
 
 ![image](https://user-images.githubusercontent.com/43883264/180855659-f35cae39-a024-47e7-8372-fdd9af2237fe.png)
 
+- All the files required for the lab are stored in the folder `sample-docker-app` and the app is built using the following command `docker build -t myapp .`
 
+- You can see a list of the docker images as below. You'll see 2 images, the one you built and the one you inherited from
 
+```bash
+ghetiapa@cloudshell:~/parth-docker-sample-app (pacific-primer-356202)$ docker images
+REPOSITORY   TAG       IMAGE ID       CREATED         SIZE
+myapp        latest    010cf627ecd9   3 minutes ago   880MB
+python       3.5       3687eb5ea744   22 months ago   871MB
+```
+
+- We can also check more history of our app by using the docker history command as below
+
+```bash 
+docker history myapp
+IMAGE          CREATED         CREATED BY                                      SIZE      COMMENT
+010cf627ecd9   4 minutes ago   /bin/sh -c #(nop)  CMD ["python" "-u" "serve…   0B
+b62c8b66a423   4 minutes ago   /bin/sh -c pip install -r requirements.txt      9.07MB
+c9234b526c4c   4 minutes ago   /bin/sh -c #(nop) WORKDIR /app                  0B
+c2d862279753   4 minutes ago   /bin/sh -c #(nop) COPY dir:b82f303f90abe12bf…   499B
+3687eb5ea744   22 months ago   /bin/sh -c #(nop)  CMD ["python3"]              0B
+<missing>      22 months ago   /bin/sh -c set -ex;   wget -O get-pip.py "$P…   7.24MB
+<missing>      22 months ago   /bin/sh -c #(nop)  ENV PYTHON_GET_PIP_SHA256…   0B
+<missing>      22 months ago   /bin/sh -c #(nop)  ENV PYTHON_GET_PIP_URL=ht…   0B
+<missing>      22 months ago   /bin/sh -c #(nop)  ENV PYTHON_PIP_VERSION=20…   0B
+<missing>      22 months ago   /bin/sh -c cd /usr/local/bin  && ln -s idle3…   32B
+<missing>      22 months ago   /bin/sh -c set -ex   && wget -O python.tar.x…   42.3MB
+<missing>      22 months ago   /bin/sh -c #(nop)  ENV PYTHON_VERSION=3.5.10    0B
+<missing>      22 months ago   /bin/sh -c #(nop)  ENV GPG_KEY=97FC712E4C024…   0B
+<missing>      22 months ago   /bin/sh -c apt-get update && apt-get install…   17.9MB
+<missing>      22 months ago   /bin/sh -c #(nop)  ENV LANG=C.UTF-8             0B
+<missing>      22 months ago   /bin/sh -c #(nop)  ENV PATH=/usr/local/bin:/…   0B
+<missing>      22 months ago   /bin/sh -c set -ex;  apt-get update;  apt-ge…   510MB
+<missing>      22 months ago   /bin/sh -c apt-get update && apt-get install…   146MB
+<missing>      22 months ago   /bin/sh -c set -ex;  if ! command -v gpg > /…   17.5MB
+<missing>      22 months ago   /bin/sh -c apt-get update && apt-get install…   16.5MB
+<missing>      22 months ago   /bin/sh -c #(nop)  CMD ["bash"]                 0B
+<missing>      22 months ago   /bin/sh -c #(nop) ADD file:07a6578d6f507bd9c…   114MB
+```
+
+- We can now run our docker container using the following commands
+
+```bash
+ghetiapa@cloudshell:~/parth-docker-sample-app (pacific-primer-356202)$ docker run -d -p 8888:8888 myapp
+3474c0c1d073a414ecbce39e79c14b1ed9ea572931421d2b2a1376c2429d1b6c
+ghetiapa@cloudshell:~/parth-docker-sample-app (pacific-primer-356202)$ docker ps
+CONTAINER ID   IMAGE     COMMAND                 CREATED         STATUS         PORTS                    NAMES
+3474c0c1d073   myapp     "python -u server.py"   6 seconds ago   Up 5 seconds   0.0.0.0:8888->8888/tcp   vibrant_bohr
+ghetiapa@cloudshell:~/parth-docker-sample-app (pacific-primer-356202)$ curl http://localhost:8888
+Hello, world
+ghetiapa@cloudshell:~/parth-docker-sample-app (pacific-primer-356202)$ docker logs vibrant_bohr
+HTTPServerRequest(protocol='http', host='localhost:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='172.18.0.1'
+ghetiapa@cloudshell:~/parth-docker-sample-app (pacific-primer-356202)$ docker exec -it vibrant_bohr /bin/bash
+root@3474c0c1d073:/app# ls
+Dockerfile  requirements.txt  server.py
+root@3474c0c1d073:/app#
+
+```
