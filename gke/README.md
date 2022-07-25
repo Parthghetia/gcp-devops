@@ -33,3 +33,15 @@ Containers start life as an image
 
 ![image](https://user-images.githubusercontent.com/43883264/180854619-62575a48-5dc6-480e-bae0-74dd95fb0b8b.png)
 
+- More about Docker and Dockerfiles here: https://github.com/Parthghetia/k8sTestingArena/tree/master/k8s-in-action/c1/docker-simple-node-app
+
+- Some more useful docker commands
+
+![image](https://user-images.githubusercontent.com/43883264/180855477-ce1bc2f0-b704-469c-be92-7abd1ce23fc1.png)
+
+#### Docker - Hands On - Lab
+
+![image](https://user-images.githubusercontent.com/43883264/180855659-f35cae39-a024-47e7-8372-fdd9af2237fe.png)
+
+
+
