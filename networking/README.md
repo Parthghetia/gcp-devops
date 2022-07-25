@@ -6,6 +6,10 @@
 ![image](https://user-images.githubusercontent.com/43883264/180825274-cec21081-13f0-48f3-97b9-65ba9de00768.png)
 ![image](https://user-images.githubusercontent.com/43883264/180825315-2687f539-4d27-4661-bae1-52effb2540bc.png)
 
+## Cloud VPC Hands On
+![image](https://user-images.githubusercontent.com/43883264/180832632-67418965-869f-4dc0-afc5-5637f3710e2f.png)
+![image](https://user-images.githubusercontent.com/43883264/180833535-b4485753-1407-428d-a168-eb1ea00ad810.png)
+
 ## Cloud Load Balancing Fundamentals
 ![image](https://user-images.githubusercontent.com/43883264/180825588-fe9a4a6e-2539-4fe6-8dcc-e20c5107ab3f.png)
 
@@ -28,6 +32,7 @@ https://cloud.google.com/iap/docs/load-balancer-howto
 
 ![image](https://user-images.githubusercontent.com/43883264/180827084-0a8ce571-4293-4c88-af00-e6aff65f87f7.png)
 ![image](https://user-images.githubusercontent.com/43883264/180827425-29b35808-78c0-4c78-861c-d257e3bac60c.png)
+![image](https://user-images.githubusercontent.com/43883264/180833575-77488bda-97a9-4681-bbad-06e76d85ed3d.png)
 
 - All you need to do is create an origin in order to enable CDN as below:
 
@@ -39,5 +44,4 @@ https://cloud.google.com/iap/docs/load-balancer-howto
 
 ## Cloud Interconnect - Used for increased bandwidth
 ![image](https://user-images.githubusercontent.com/43883264/180830566-34d94efa-55ac-455a-929e-308f2085952d.png)
-
 
