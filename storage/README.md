@@ -92,8 +92,18 @@
 
 ![image](https://user-images.githubusercontent.com/43883264/180624330-3de2f195-730b-4e99-bb9f-bb5ee6f6da54.png)
 
+## Managing Google Cloud SQL Instances - Hands On
+![image](https://user-images.githubusercontent.com/43883264/180682115-2fec3aa1-6454-47a8-854e-707b82cead29.png)
+
 # NoSql Management with Cloud BigTable
 ![image](https://user-images.githubusercontent.com/43883264/180624404-b0a67889-0fc4-4063-a123-6ab1389d2613.png)
+
+## Exploring Cloud Firestore in DataStore Mode - NoSql - Hands On
+Cloud Firestore is a NoSQL document database that lets you easily store, sync, and query data for your mobile and web apps - at global scale.
+
+![image](https://user-images.githubusercontent.com/43883264/180682400-714bc39b-b452-4bf9-b89c-39dfe9fde408.png)
+![image](https://user-images.githubusercontent.com/43883264/180682419-72159a33-f6b9-420f-a2fd-ff892a4e7334.png)
+
 
 ## Cloud BigTable Hands On
 ![image](https://user-images.githubusercontent.com/43883264/180624495-3f3e56e0-0843-436c-92e0-a31edb1c0dc2.png)
@@ -103,6 +113,8 @@
 - This is how to work with a CBT instance and to read and write data to CBT
 
 https://cloud.google.com/bigtable/docs/create-instance-write-data-hbase-shell
+
+## Connecting to Cloud BigTable with CBT - Hands On
 
 ## Cloud Spanner
 ![image](https://user-images.githubusercontent.com/43883264/180624619-3d1a8d16-7d82-4aee-aa96-89653e1ea982.png)
