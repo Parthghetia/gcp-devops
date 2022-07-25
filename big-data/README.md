@@ -81,6 +81,15 @@ https://github.com/Parthghetia/gcp-devops/blob/main/README.md#google-dataflow
 
 `gcloud pubsub subscriptions pull <name of sub>`
 
+## Handling Streaming Messages with Cloud Pub/Sub - Hands On
+
+![image](https://user-images.githubusercontent.com/43883264/180694481-c89982c2-c34c-4aa9-9b8f-9386c5a8f5e6.png)
+
+![image](https://user-images.githubusercontent.com/43883264/180694466-ea891e82-05f3-48f4-969c-09cde55444a2.png)
+
+![image](https://user-images.githubusercontent.com/43883264/180694367-3370f56a-84d6-40b3-9a48-0bb2a41570e4.png)
+
+
 ## More Big Data Services
 ### Cloud DataLab
 
