@@ -101,3 +101,36 @@ Dockerfile  requirements.txt  server.py
 root@3474c0c1d073:/app#
 
 ```
+- Now remember that any files created in the container only stays there until the container lives. So you could create a file within the container and if you remove it. It would be gone. However if you only stop the container and start it again. The file would be there.
+
+- Now let's push our image to a registry:
+
+```bash
+ghetiapa@cloudshell:~/parth-docker-sample-app (pacific-primer-356202)$ docker images
+REPOSITORY                  TAG       IMAGE ID       CREATED          SIZE
+gcr.io/parth-ghetia/myapp   latest    010cf627ecd9   17 minutes ago   880MB
+myapp                       latest    010cf627ecd9   17 minutes ago   880MB
+python                      3.5       3687eb5ea744   22 months ago    871MB
+
+ghetiapa@cloudshell:~/parth-docker-sample-app (pacific-primer-356202)$ docker tag myapp gcr.io/pacific-primer-356202/myapp
+
+ghetiapa@cloudshell:~/parth-docker-sample-app (pacific-primer-356202)$ docker push gcr.io/pacific-primer-356202/myapp
+Using default tag: latest
+The push refers to repository [gcr.io/pacific-primer-356202/myapp]
+90c36ad0a067: Pushed
+54bbfff52dd0: Pushed
+95d78f868723: Pushed
+493fa57d210f: Pushed
+5aed5e63d645: Pushed
+97be79495d2a: Pushed
+a995c5106335: Layer already exists
+17bdf5e22660: Layer already exists
+d37096232ed8: Layer already exists
+6add0d2b5482: Layer already exists
+4ef54afed780: Layer already exists
+latest: digest: sha256:1d84a182231c9e850dcf31c2fbbaa9ce6a59fa984f275edfd8921eff1914d3aa size: 2635
+ghetiapa@cloudshell:~/parth-docker-sample-app (pacific-primer-356202)$
+```
+- You can now see your image on GCP and can deploy from there too to let's say GKE
+
+![image](https://user-images.githubusercontent.com/43883264/180860467-2b97faed-31ee-4487-8ca3-8d9bc4b1e491.png)
