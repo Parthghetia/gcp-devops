@@ -49,3 +49,4 @@ Choose Standard option below:
 
 - More detailed stuff, go google and some yet to come
 
+- Once cluster is up. Now comes in more of the kubernetes stuff here: https://github.com/Parthghetia/k8sTestingArena/tree/master/k8s-in-action
