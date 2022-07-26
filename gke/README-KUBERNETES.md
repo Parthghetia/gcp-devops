@@ -50,3 +50,18 @@ Choose Standard option below:
 - More detailed stuff, go google and some yet to come
 
 - Once cluster is up. Now comes in more of the kubernetes stuff here: https://github.com/Parthghetia/k8sTestingArena/tree/master/k8s-in-action
+
+## Monitoring, Logging and Debugging
+- A really handy command here is a command that can be used to check the logs of different pods using a label selector as below
+
+```bash
+ kubectl logs --selector app=nginx
+2022/07/26 16:11:59 [notice] 1#1: using the "epoll" event method
+2022/07/26 16:11:59 [notice] 1#1: nginx/1.23.1
+2022/07/26 16:11:59 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6)
+2022/07/26 16:11:59 [notice] 1#1: OS: Linux 5.10.90+
+2022/07/26 16:11:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/26 16:11:59 [notice] 1#1: start worker processes
+2022/07/26 16:11:59 [notice] 1#1: start worker process 31
+..........
+```
