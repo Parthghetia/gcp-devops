@@ -33,3 +33,19 @@ kube-proxy maintains network rules on nodes. These network rules allow network c
 
 ##### Container Runtime
 The container runtime is the software that is responsible for running containers.
+
+
+## Creating a GKE Cluster
+
+Choose Standard option below:
+
+![image](https://user-images.githubusercontent.com/43883264/181051424-9968dcf4-ebb6-412a-9d53-5560cab53709.png) 
+
+![image](https://user-images.githubusercontent.com/43883264/181051600-0d7e46bc-cc8e-4e28-a17c-34217040aebc.png)
+
+![image](https://user-images.githubusercontent.com/43883264/181051677-ba66835d-3af3-44bf-b139-62e057dbf69d.png)
+
+![image](https://user-images.githubusercontent.com/43883264/181051835-673c0909-25a7-41d4-a925-c7e7739d6a24.png)
+
+- More detailed stuff, go google and some yet to come
+
