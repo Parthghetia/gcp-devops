@@ -70,4 +70,8 @@ Choose Standard option below:
 
 ![image](https://user-images.githubusercontent.com/43883264/181076319-0cc87e77-65b7-4c95-ac8e-1dc3c136b42e.png)
 
+- All the files for this folder are right here: [
+](https://github.com/ACloudGuru-Resources/Course_GKE_Beginner_To_Pro/tree/master/Chapter_Three/Lecture_1_Lab/redisdemo)
+
+- Here is the kubernetes tutorial for that if ever needed: http://pwittrock.github.io/docs/tutorials/stateless-application/guestbook/
 
