@@ -65,3 +65,9 @@ Choose Standard option below:
 2022/07/26 16:11:59 [notice] 1#1: start worker process 31
 ..........
 ```
+
+## Building a stateless application
+
+![image](https://user-images.githubusercontent.com/43883264/181076319-0cc87e77-65b7-4c95-ac8e-1dc3c136b42e.png)
+
+
