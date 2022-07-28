@@ -75,3 +75,35 @@ Choose Standard option below:
 
 - Here is the kubernetes tutorial for that if ever needed: http://pwittrock.github.io/docs/tutorials/stateless-application/guestbook/
 
+
+## Liveness and readiness probes
+#### Liveness Probes
+
+![image](https://user-images.githubusercontent.com/43883264/181600527-41da5043-cec1-459e-b7b4-db9751f6d7ed.png)
+
+Sample yaml definition:
+
+![image](https://user-images.githubusercontent.com/43883264/181600593-c7f312a8-d9ec-4e8e-ac3b-f71343a88f31.png)
+
+#### Readiness Probes
+![image](https://user-images.githubusercontent.com/43883264/181600765-65970ad2-2f1e-44ae-ae24-87e4e9bcde49.png)
+
+Sample yaml definition:
+![image](https://user-images.githubusercontent.com/43883264/181600819-950325d1-07db-42b6-8eef-268659d597a0.png)
+
+Sample yaml definition with both liveness and readiness probes defined:
+
+![image](https://user-images.githubusercontent.com/43883264/181600913-423f1d84-680a-49e1-b730-1f91f1d0fea8.png)
+
+#### Probe Configuration
+
+![image](https://user-images.githubusercontent.com/43883264/181601042-cb8594da-9c58-497c-8b6c-b27bde01c383.png)
+
+## Accessing external services from inside the pods
+- One way is by using service endpoints like below:
+
+![image](https://user-images.githubusercontent.com/43883264/181601475-109b25d5-292e-43af-b2dd-f3e121d7e462.png)
+
+
+
+- All the files for this folder are right here: [
