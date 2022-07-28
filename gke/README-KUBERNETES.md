@@ -182,8 +182,48 @@ Sample yaml definition with both liveness and readiness probes defined:
 
 ## Deployment Patterns
 
+![image](https://user-images.githubusercontent.com/43883264/181605961-8466581a-2ac0-4690-9ddb-2e898faffec8.png)
+
+#### Rolling Update Strategy
+
+![image](https://user-images.githubusercontent.com/43883264/181606101-8ee08316-b6b5-47b4-abfa-432bfc8a3166.png)
+
+#### Canary Deployments
+
+![image](https://user-images.githubusercontent.com/43883264/181606428-15105ad3-89ab-43f3-b753-04ccb50de529.png)
+
+- yaml definition for canary deployments
+
+![image](https://user-images.githubusercontent.com/43883264/181606453-77060483-009b-4b59-893f-0184b909b4fc.png)
+
+#### Blue-Green Deployments
+![image](https://user-images.githubusercontent.com/43883264/181606703-19ddb440-b515-48e6-bb04-1433bb699ef5.png)
 
 
+## Autoscale in Kubernetes
 
+![image](https://user-images.githubusercontent.com/43883264/181607128-cbaeb445-30dc-481e-bab8-e12c657d164d.png)
+
+#### Horizontal Pod Autoscaler
+
+![image](https://user-images.githubusercontent.com/43883264/181607255-54870ad4-887e-4f9d-925f-da91faee9e3d.png)
+
+- Sample yaml definition for HPA
+
+![image](https://user-images.githubusercontent.com/43883264/181607336-150e6f58-2192-46fc-a457-d9ac521dc1d1.png)
+
+
+#### Vertical Pod Autoscaler
+![image](https://user-images.githubusercontent.com/43883264/181607455-b51a69ac-269f-4b84-9716-0857df197aa9.png)
+
+- Sample yaml definition for VPA
+
+#### Cluster Autoscaler
+
+![image](https://user-images.githubusercontent.com/43883264/181607653-ec0aaa65-254d-4c45-85bc-bc6acf77a48e.png)
+
+## Best practices around autoscaling
+
+![image](https://user-images.githubusercontent.com/43883264/181607829-a65f6406-7201-497b-9a39-c41632e43d2f.png)
 
 
