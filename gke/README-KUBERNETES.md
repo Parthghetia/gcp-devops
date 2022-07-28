@@ -104,6 +104,86 @@ Sample yaml definition with both liveness and readiness probes defined:
 
 ![image](https://user-images.githubusercontent.com/43883264/181601475-109b25d5-292e-43af-b2dd-f3e121d7e462.png)
 
+![image](https://user-images.githubusercontent.com/43883264/181601907-d4d73c00-c0d2-4906-95f5-68323e693e63.png)
+
+- If the pods need to access the service they can always do so using the internal DNS like so: 
+
+![image](https://user-images.githubusercontent.com/43883264/181602046-5da4e627-9ef6-4260-8645-c907602c7acd.png)
+
+- Services can also map to external FQDNs and no endpoints needed
+
+![image](https://user-images.githubusercontent.com/43883264/181602226-5322b001-f88f-44ce-a71e-3f0cf6c5b796.png)
+
+- Here is another example for a rabbit MQ service with multiple endpoints
+
+![image](https://user-images.githubusercontent.com/43883264/181602330-9d90383d-74a6-47bb-8e78-7f9fe268c338.png)
+
+- Another way to access external services is by using sidecar containers like so:
+
+![image](https://user-images.githubusercontent.com/43883264/181602428-11feed8b-34e6-4ab8-a198-9ecdba78b17c.png)
+
+## Volumes and Persistent Storage
+
+![image](https://user-images.githubusercontent.com/43883264/181602968-2eb02990-a0ce-45a6-9a6b-26b75248a2bb.png)
+
+- What are PVs (can be skipped)
+
+![image](https://user-images.githubusercontent.com/43883264/181603129-490e3332-eb48-4a4d-81dd-1a5becd3cbcd.png)
+
+- Here are PV and PVC yaml definitions
+
+![image](https://user-images.githubusercontent.com/43883264/181603263-1d6c22a7-8b49-40b5-985e-51882a0e9c7b.png)
+
+![image](https://user-images.githubusercontent.com/43883264/181603286-8ef76c21-9208-48ce-9385-4124f24a594d.png)
+
+- However, GKE is powerful enough to create the volume on its own automatically if you just declare your PV (a plus for GKE)
+
+![image](https://user-images.githubusercontent.com/43883264/181603479-c3cde6e8-62fe-488a-9632-e35049066170.png)
+
+- You can optionally define storage classes to easily attach to pods
+
+![image](https://user-images.githubusercontent.com/43883264/181603675-a636da21-e912-4730-b7e7-3a924f959792.png)
+
+- Volume access modes include:
+
+![image](https://user-images.githubusercontent.com/43883264/181603826-72d2a28d-250c-4c40-a1b9-5a1f5401e654.png)
+
+- Here are some constraints to using GCS for your kubernetes clusters
+
+![image](https://user-images.githubusercontent.com/43883264/181604075-3ce55766-e13d-403c-be26-351451a409e8.png)
+
+- And here are the alternatives to that
+
+![image](https://user-images.githubusercontent.com/43883264/181604293-4e60ca02-7a00-4e24-95f5-c8f2d5938cea.png)
+
+## ConfigMaps and Secrets
+
+#### Secrets
+
+![image](https://user-images.githubusercontent.com/43883264/181604764-151ae61e-7189-4689-8314-0b61318edfef.png)
+
+#### ConfigMaps
+
+![image](https://user-images.githubusercontent.com/43883264/181604947-3d2a4bf6-9edc-4478-864e-b14c5ee82940.png)
+
+![image](https://user-images.githubusercontent.com/43883264/181605026-958c36f5-1867-4e40-a286-c7259f88ab09.png)
+
+- Here is how to do in a container
+
+![image](https://user-images.githubusercontent.com/43883264/181605066-6532d770-ad8f-4da5-a762-30638d952307.png)
+
+![image](https://user-images.githubusercontent.com/43883264/181605143-3609f3be-2243-4402-b491-2bde96b425eb.png)
+
+- Configmaps can also store entire configuration files
+
+![image](https://user-images.githubusercontent.com/43883264/181605235-8d21a602-4311-475f-9eaf-545d80e59c49.png)
+
+![image](https://user-images.githubusercontent.com/43883264/181605284-7ade5a6a-1553-4eab-be71-6648087f14d7.png)
+
+## Deployment Patterns
 
 
-- All the files for this folder are right here: [
+
+
+
+
