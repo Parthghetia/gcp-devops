@@ -227,3 +227,152 @@ Sample yaml definition with both liveness and readiness probes defined:
 ![image](https://user-images.githubusercontent.com/43883264/181607829-a65f6406-7201-497b-9a39-c41632e43d2f.png)
 
 
+
+# Helm
+![image](https://user-images.githubusercontent.com/43883264/181653084-8fb39e6c-6bfb-4e97-b494-4acee522f6e1.png)
+
+- How to use helm
+
+![image](https://user-images.githubusercontent.com/43883264/181653146-545e2e4a-d29e-4924-95c8-82379e101cbe.png)
+
+- Helm chart breakdown
+
+![image](https://user-images.githubusercontent.com/43883264/181653306-4e0ab21a-7537-49aa-a9dc-6015c3a10575.png)
+
+![image](https://user-images.githubusercontent.com/43883264/181653395-80c6be5c-6a3e-42f4-9f22-e8c4202080e6.png)
+
+- There are other helpful helm commands like `helm update` or `helm delete` as well as `helm status` . These are all the commands that can be used to play with a release
+
+
+
+# Advanced Ingress Control
+## Ingress
+![image](https://user-images.githubusercontent.com/43883264/181653575-fbaac6b0-0612-4fcd-8115-c3bf43c9cf87.png)
+
+## Ingress Controller
+![image](https://user-images.githubusercontent.com/43883264/181653611-964a5826-e2c6-4f12-8f26-2364c0382425.png)
+- Here is how to use an ingress controller using a diag
+
+![image](https://user-images.githubusercontent.com/43883264/181653713-3e455dac-1e96-4c35-bea3-80d536f80691.png)
+
+![image](https://user-images.githubusercontent.com/43883264/181653743-1cea682a-78f6-47f3-8115-c45cfc1af44b.png)
+
+#### NGINX Ingress Controller
+
+![image](https://user-images.githubusercontent.com/43883264/181653824-69f45543-9d34-47b4-acc3-357058ad3527.png)
+
+# High Availability Clusters and Workloads
+
+### Regional GKE Clusters
+
+![image](https://user-images.githubusercontent.com/43883264/181653898-3e108fb9-fb64-42a5-9c54-532e9739019b.png)
+
+### Regional Persistent Storage
+
+![image](https://user-images.githubusercontent.com/43883264/181654013-dd26c247-f53c-436b-80c7-b9162bdc4f36.png)
+
+- Here is how to achieve that
+
+![image](https://user-images.githubusercontent.com/43883264/181654087-a2078dce-c152-4f01-b24f-4f8888e7d913.png)
+
+### Multi-Cluster Ingress
+
+![image](https://user-images.githubusercontent.com/43883264/181654309-948d1883-e5bf-404a-8c83-d4b2b9733c2c.png)
+
+# Running a secure GKE cluster
+
+![image](https://user-images.githubusercontent.com/43883264/181654441-12e9ba50-9974-407f-96ff-7fcc35bfe932.png)
+
+- Securing your GKE Cluster
+
+![image](https://user-images.githubusercontent.com/43883264/181654493-d0c144b5-f1de-4855-8a26-e4811a34b2e7.png)
+
+
+![image](https://user-images.githubusercontent.com/43883264/181654013-dd26c247-f53c-436b-80c7-b9162bdc4f36.png)
+
+#### RBAC
+
+![image](https://user-images.githubusercontent.com/43883264/181654568-f6ffe68f-5f16-461c-84a2-d68516201fc4.png)
+
+Basic RBAC role definition
+
+![image](https://user-images.githubusercontent.com/43883264/181654620-c60fcd28-fdd9-4254-ac44-58bba21c441c.png)
+
+Basic Cluster Role
+
+![image](https://user-images.githubusercontent.com/43883264/181654654-37aff45a-f83c-4225-afb7-238d3479086d.png)
+
+
+#### Pod Security Policies
+
+![image](https://user-images.githubusercontent.com/43883264/181654863-540f629d-b8b6-49d9-a830-910390dbfaf9.png)
+
+- Sample Pod Security Policy definition
+
+![image](https://user-images.githubusercontent.com/43883264/181654976-393c150c-2209-4cb5-940f-3e1708951338.png)
+
+![image](https://user-images.githubusercontent.com/43883264/181655000-705175b5-552b-4675-8804-3ea26a5e0d12.png)
+
+
+#### Network Policies
+
+![image](https://user-images.githubusercontent.com/43883264/181655096-16c131b5-2fa7-4a4e-b392-5e21dad6934c.png)
+
+- Here is an example network policy yaml definition
+
+![image](https://user-images.githubusercontent.com/43883264/181655126-99949c6f-a363-4ed1-8d33-dfd791bc46a2.png)
+
+![image](https://user-images.githubusercontent.com/43883264/181655147-c36e3ff3-b58a-48c3-9f05-160baeb4d01e.png)
+
+#### Workload Identity
+
+![image](https://user-images.githubusercontent.com/43883264/181655242-adbaea9b-0f16-45d1-8534-a5ca22d93518.png)
+
+# Stateful applications and workloads
+
+- Stateful vs stateless
+
+![image](https://user-images.githubusercontent.com/43883264/181655388-00c6a010-5643-4f1a-86c2-a7e452a6a57b.png)
+
+- That is why k8s has statefulsets
+
+![image](https://user-images.githubusercontent.com/43883264/181655464-d1df8e5c-4fc6-48b2-8b39-a2099f95b8c2.png)
+
+- Sample definition of a statefulset
+
+![image](https://user-images.githubusercontent.com/43883264/181655515-8d3d6085-5ca8-4b05-ba3b-7d14c698df86.png)
+
+# Finite Tasks and Init Containers
+
+#### Jobs and CronJobs
+
+![image](https://user-images.githubusercontent.com/43883264/181656147-ead1ab8e-6f95-4ac6-85a0-c43662eaf361.png)
+
+- Sample job manifest
+
+![image](https://user-images.githubusercontent.com/43883264/181656175-c6e19f96-1bd1-4b57-9909-a83aee1e2ca8.png)
+
+![image](https://user-images.githubusercontent.com/43883264/181656228-c94da2cc-7181-4e33-bc39-8fb7aaa6fa78.png)
+
+
+- Sample cron job manifest
+
+![image](https://user-images.githubusercontent.com/43883264/181656267-d448001d-3e37-4b45-a974-72b33aefaff8.png)
+
+#### Init Containers
+
+![image](https://user-images.githubusercontent.com/43883264/181656482-de61811c-3628-4a3f-89eb-5f8c7c49da6a.png)
+
+- Sample init container manifest
+
+![image](https://user-images.githubusercontent.com/43883264/181656507-fc2e6b01-9102-4bf6-a4cc-7ac35c273554.png)
+
+
+
+
+
+
+
+
+
+
